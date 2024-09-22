@@ -4,7 +4,7 @@
 
 codigo programa_1
 
-```
+```Python
 # Diccionario de ejemplo
 mi_diccionario = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
 
