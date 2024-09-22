@@ -27,7 +27,7 @@ for valor in valores:
 
 codigo programa_2
 
-```
+```Python
 def mezclar_diccionarios(dic1, dic2):
     # Crea una copia del primer diccionario
     diccionario_mezclado = dic1.copy()
@@ -48,7 +48,7 @@ print(diccionario_resultado)
 ```
 
 ### 3. Dado el JSON:
-```
+```Python
 {
 	"jadiazcoronado":{
 		"nombres": "Juan Antonio",
@@ -73,7 +73,7 @@ Cree un programa que lea de un archivo con dicho JSON y:
 
 codigo programa_3
 
-```
+```Python
 import json
 
 datos_json = '''
@@ -133,7 +133,7 @@ programa_principal()
 ```
 
 ### 4. El siguiente código contiene un JSON con el pronostivo detallado del clima para 8 días:
-```
+```Python
 import json
 
 # Cargar archivo
@@ -152,7 +152,7 @@ Para cada uno identifique si se presentan alertas ({0: x} indica que el día 0 h
 
 codigo programa_4
 
-```
+```Python
 import json
 from datetime import datetime
 
@@ -195,7 +195,7 @@ revisar_alertas(data)
 
 codigo programa_5
 
-```
+```Python
 import requests
 
 # URLs de las APIs
