@@ -23,7 +23,7 @@ for i in range(n):
 for valor in valores:
     print(valor)
 ```
-### 2. Desarrollar una funci�on que reciba dos diccionarios como par�ametros y los mezcle, es decir, que se construya un nuevo diccionario con las llaves de los dos diccionarios; si hay una clave repetida en ambos diccionarios, se debe asignar el valor que tenga la clave en el primer diccionario.
+### 2. Desarrollar una funcion que reciba dos diccionarios como parametros y los mezcle, es decir, que se construya un nuevo diccionario con las llaves de los dos diccionarios; si hay una clave repetida en ambos diccionarios, se debe asignar el valor que tenga la clave en el primer diccionario.
 
 codigo programa_2
 
@@ -52,10 +52,10 @@ print(diccionario_resultado)
 {
 	"jadiazcoronado":{
 		"nombres": "Juan Antonio",
-		"apellidos": "D��az Coronado",
+		"apellidos": "Diaz Coronado",
 		"edad":19,
 		"colombiano":true,
-		"deportes":["F�utbol","Ajedrez","Gimnasia"]
+		"deportes":["Futbol","Ajedrez","Gimnasia"]
 	},
 	"dmlunasol":{
 		"nombres": "Dorotea Maritza",
@@ -69,7 +69,7 @@ print(diccionario_resultado)
 Cree un programa que lea de un archivo con dicho JSON y:
 
 * Imprima los nombres completos (nombre y apellidos) de las personas que practican el deporte ingresado por el usuario.
-* Imprima los nombres completos (nombre y apellidos) de las personas que est�en en un rango de edades dado por el usuario.
+* Imprima los nombres completos (nombre y apellidos) de las personas que esten en un rango de edades dado por el usuario.
 
 codigo programa_3
 
