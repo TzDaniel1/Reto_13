@@ -205,7 +205,7 @@ api_urls = [
     "https://official-joke-api.appspot.com/random_joke"
 ]
 
-# Función que realizaa la petición y muetra los pares clave-valor
+# Función que realiza la petición y muetra los pares clave-valor
 def get_json_and_print_pairs(api_url):
     response = requests.get(api_url)
     if response.status_code == 200:
